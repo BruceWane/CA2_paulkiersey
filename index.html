@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"></script>
+  <style>
+.title-row {
+  line-height: 60px;
+}
+.role-row {
+  line-height: 40px;
+  font-style: italic;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+
+  <table style="display: block; width: 100%;">
+    <tr>
+            <td>
+      <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist" >
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="true">Profile</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-career-tab" data-toggle="pill" href="#pills-career" role="tab" aria-controls="pills-career" aria-selected="false">Career History</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Education</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-hobbies-tab" data-toggle="pill" href="#pills-hobbies" role="tab" aria-controls="pills-hobbies" aria-selected="false">Hobbies & Interests</a>
+        </li>
+      </ul>
+    </td>
+      <td stlye="text-align: right;">
+      <form class="form-inline my-2 my-lg-0" style="">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      </td>
+    </tr>
+    </table>
+        
+      
+
+      <div class="tab-content" id="pills-tabContent" style="display: block;">
+        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <p><img src="IMG-2001.jpg" width="25%" align="left" style="margin-bottom: 20px; margin-right: 20px;""> 
+        
+                Sales Engineer with over 20 years of experience developing and presenting solutions to customers. Cultivated strong client relationships to close new, upsell and cross-sell opportunities. Passion for getting customers the most value from the product. Strong data analytical skills to enable actionable insights. Experienced presenter of solution proposals and product demonstrations up to C-level. 
+            </p>
+
+            <p>
+              Recently moved from Telecoms into Fintech
+            </p>
+            <p class="mt-4 text-center"><a href="https://www.linkedin.com/in/paul-kiersey-a533274/">My Linkedin Profile</a></p>
+            <p class="mt-4 text-center"><a href="https://www.linkedin.com/in/paul-kiersey-a533274/">Download CV</a></p>
+        </div>
+
+
+
+        <div class="tab-pane fade" id="pills-career" role="tabpanel" aria-labelledby="pills-career-tab">
+
+            <table class="" style="width:99%;">
+                  <tr class="title-row">
+                    <td style="font-weight: bold;">Netscout (previously Tektronix Communications/Arantech)</td>
+                    <td style="text-align: right;">Nov 2008- Jun 2020</td>
+                  </tr>
+                  <tr>                   
+                    <td class="role-row">Sales Engineer</td>
+                    <td style="text-align: right;">Sep 2012 – Present</td>
+                  </tr>
+            </table>
+
+                <ul style="list-style: disc;">
+                    <li>Sold a key product suite to a Tier 1 service provider which 'ripped and replaced' a competitor's solution, resulting in an order for €2.2m </li>
+                    <li>Developed Analytics Reports for customers using MicroStrategy and Business Objects</li>
+                    <li>Built self serve dashboards for Care agents to enable quicker root cause analysis</li>
+                    <li>Won over €1.3m in new orders from a Tier 2 customer in 1.5 years</li>
+                    <li>Supported accounts in more than 7 countries in the EMEA region</li>
+                    <li>Carried out 30% of all company demos for one product to target customers worldwide in a 2 year timeframe (often via Webex)</li>
+                    <li>Led cross functional teams to respond to customer RFP in a timely manner </li>
+                    <li>Worked with Product Management to collect “Voice of the Customer” feedback</li>
+                </ul>
+
+            <table class="" style="width:99%;">
+                <tr>                    
+                <td class="role-row">Trials Manager & Data Analyst</td>
+                <td style="text-align: right;">Jan 2010 – Aug 2012</td>
+                </tr>
+            </table>
+
+                <ul style="list-style: disc;">
+                    <li>Conducted trials with target customers</li>
+                    <li>Presented insights from trials back to target customers</li>
+                    <li>Performed ROI analysis on customer data and compiled reports which demonstrated the business value of offering</li>
+                    <li>Created SQL queries to obtain data that was not available in native GUI </li>
+                    <li>Analysed customer data on production sites to prove Use Cases</li>
+                    <li>Liaised with Product Management to develop new Use Cases used in product enhancements</li>
+                </ul>
+
+            <table class="" style="width:99%;">
+                <tr>                    
+                <td class="role-row">Integration Office Engineer</td>
+                <td style="text-align: right;">Nov 2008 2010 – Dec 2009</td>
+                </tr>
+            </table>
+
+
+                <ul style="list-style: disc;">
+                    <li>Measured operational effectiveness of solutions group </li>
+                    <li>Performed validation checks on software solutions before on-site deployments</li>
+                    <li>Designed workflows which resulted in a significant reduction in cycle times</li>
+                    <li>Aided the Quality Manager to implement and improve metrics for defect tracking</li>
+                </ul>
+
+            <table class="" style="width:99%;">
+                <tr>                    
+                <td style="font-weight: bold;">IBM (previously TheNowFactory): Programme Manager</td>
+                <td style="text-align: right;">June 2007 – Nov 2008</td>
+                </tr>
+            </table>
+
+                <ul style="list-style: disc;">
+                    <li>Managed rollout of MIDAS Gn probe in several Tier 1 mobile operators</li>
+                    <li>Directed Customer Acceptance Testing (CAT) activities to minimise the deployment cost to the organisation</li>
+                </ul>
+
+            <table class="" style="width:99%;">
+                <tr>                    
+                <td style="font-weight: bold;">Vodafone</td>
+                <td style="text-align: right;">Nov 1998 - May 2007</td>
+                </tr>
+                <tr>                    
+                <td class="role-row">Parameter Architecture Team Leader</td>
+                <td style="text-align: right;">Jan 2006 – May 2007</td>
+                </tr>
+            </table>
+
+                <ul style="list-style: disc;">
+                    <li>Managed Vodafone Ireland’s 3G and 2G parameter planning and implementation</li>
+                    <li>Represented Vodafone Ireland in the parameter work stream within Vodafone Group</li>
+                    <li>Analysed traffic trends and devised innovative solutions that handled future growth in traffic with least capital investment</li>
+                    <li>Reduced drop calls on the 3G network by 30% in Dublin</li>
+                </ul>
+
+            <table class="" style="width:99%;">
+                <tr>                    
+                <td class="role-row">Optimisation Engineer and Radio Planner</td>
+                <td style="text-align: right;">Nov 1998-Dec 2005 </td>
+                </tr>
+            </table>
+
+                <ul style="list-style: disc;">
+                    <li>Performed root cause analysis of 2G & 3G network issues </li>
+                    <li>Lead a cross-functional team of 5 to ensure quality metrics were achieved before the launch of the 3G network</li>
+                    <li>Designed radio network rollout plan for five counties in Ireland</li>
+                </ul>
+
+        </div>
+
+        <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+        
+
+          <table class="" style="width:99%;">
+            <thead>
+              <tr>
+                <th>Course</th>
+                <th>Awarding Institution</th>
+                <th style="text-align: right;">Year</th>
+              </tr>
+            </thead>
+              <tr>
+                  <td>Diploma in Machine Learning and AI for Industry</td>
+                  <td style="text-align: justify;">Technological University of Dublin</td>
+                  <td style="text-align: right;">2020-2021</td>
+                </tr>
+              <tr>
+                <td>MSc (Innovation & Management for Technologists)</td>
+                <td style="text-align: justify;">Dublin Institute of Technology</td>
+                <td style="text-align: right;">2008</td>
+              </tr>
+              <tr>                    
+                <td>BE (Electronic Engineering) </td>
+                <td style="text-align: justify;">University College Dublin</td>
+                <td style="text-align: right;">1998</td>
+          </table>
+
+        </div>
+
+        <div class="tab-pane fade" id="pills-hobbies" role="tabpanel" aria-labelledby="pills-hobbies-tab">
+          <p>Coach of Under 8 football team</p>
+          <p>Cycling</p>
+          <p>Current affairs</p>
+        </div>
+</div>
+
+</body>
+</html>
+
